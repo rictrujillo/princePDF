@@ -1,0 +1,196 @@
+@page {
+    size: 950px 1287px;
+    margin: 0 0 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    @bottom-left {
+        content: flow(footer-logo);
+        margin-left: 50px;
+        margin-bottom: 36px;
+        text-align: left;
+    }
+    @bottom-center {
+        content: flow(footer-main);
+        margin-bottom: 36px;
+    }
+    @bottom-right {
+        content: "Page " counter(page) " of " counter(pages);
+        margin-right: -200px;
+        margin-bottom: 20px;
+        font-family: PrinceFF, sans-serif;
+        font-size: 15px;
+        color: rgb(146, 146, 146);
+    }
+  }
+  
+  
+  .pagebreak {
+    page: page;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+  }
+  
+  
+  /*! CSS Used from: Embedded */
+  .page{min-height:1287px;width:960px;margin:0 auto;}
+  .page.cover-page .cover-page-title{position:relative;top:500px;left:20%;}
+  .page.cover-page .cover-page-title img{max-width:300px;position:absolute;top:30px;}
+  .page.cover-page .cover-page-title p{position:relative;top:500px;font-size:medium;}
+  .page.cover-page .cover-page-title label{margin-left:1em;position:relative;top:-55px;}
+  /*! CSS Used from: Embedded */
+  .main-layout{overflow-x:hidden;max-width:100vw;min-height:100vh;}
+  .main-navigation-links{text-align:right;margin-top:1em;}
+  .main-navigation-item{list-style:none;display:inline-block;padding:0 1em;}
+  .main-logo{max-height:50px;}
+  .main-title{display:inline;margin-left:1em!important;position:relative;top:-40px;}
+  .header-title{text-align:center;margin-top:0.5em!important;}
+  /*! CSS Used from: Embedded */
+  .k-numeric-wrap{border:none!important;}
+  .k-numerictextbox{border:none!important;background-color:#ccc!important;border-radius:5px;padding-left:1em!important;}
+  .k-numerictextbox::after{display:none!important;}
+  .k-numerictextbox input{padding:1.5em!important;}
+  .allocation-model{margin-bottom:0em;}
+  .allocation-model ul{width:100%;}
+  .allocation-model .allocation-model-category{border:2px solid black!important;}
+  .allocation-model .allocation-category-name{display:inline-block;width:50%;}
+  .allocation-model .allocation-category-total{display:block;width:50%;text-align:right;}
+  /*! CSS Used from: Embedded */
+  .plan-output-page{width:75%;margin:0 auto;display:block;}
+  .market-conditions-menu{text-align:right;}
+  .market-conditions-menu label{position:relative;top:2px;}
+  .market-condition-menu-button{background-color:black!important;border-radius:100%!important;height:32px!important;min-width:32px!important;width:32px!important;color:white!important;margin-left:1em!important;}
+  .plan-output-title{text-align:center;}
+  .begin-value p{font-size:0.75em!important;}
+  .asset-breakdown-chart{width:250px;display:inline-block;position:relative;left:-30px;}
+  .plan-asset-category .MuiAccordion-root{width:100%!important;}
+  .color-indicator{display:inline-block;width:15px;height:12px;border-radius:100%;position:relative;top:4px;margin-right:1em;}
+  .header-button{border:1px solid black!important;border-radius:20px!important;margin-left:1em!important;color:#000!important;}
+  .begin-value{display:inline-block;position:relative;top:5px;}
+  .market-conditions-container{position:relative;top:25px;}
+  .plan-allocation-model-container .plan-asset-category{margin-bottom:0px!important;}
+  .plan-statistic{width:50%;display:inline-block;}
+  .plan-statistic label{font-size:0.75em;color:#c1c1c1;display:block;text-align:center;}
+  .plan-statistic span{text-align:center;display:inline-block;width:100%;}
+  .percentile-value label{font-size:0.75em;width:100%;display:inline-block;text-align:center;}
+  .percentile-value span{width:100%;display:inline-block;text-align:center;}
+  .divider{border-top:1px solid #ccc;}
+  .plan-name{position:relative;top:8px;}
+  .plan-allocation-graph-container{margin-top:10%!important;}
+  .plan-allocation-model-container .allocation-model-category{background-color:#eee;}
+  .plan-allocation-model-container .allocation-category-name{width:60%!important;}
+  .plan-allocation-model-container .allocation-category-name,.plan-allocation-model-container .allocation-category-total{font-size:0.7em!important;}
+  .plan-allocation-model-container .MuiListItemText-primary{font-size:0.7em!important;}
+  .plan-allocation-model-container .MuiListItemIcon-root .k-numerictextbox{width:125px!important;}
+  /*! CSS Used from: Embedded */
+  h1{font-family:MontserratLight!important;}
+  body,body p,body span,body label{margin:0px!important;font-family:OpenSans!important;}
+  .MuiButton-root{font-family:OpenSans!important;}
+  .k-icon{font-family:"WebComponentsIcons"!important;}
+  .cumulative-wealth-header{text-align:center;}
+  /*! CSS Used from: Embedded */
+  body{margin:0px!important;}
+  .MuiDialog-paperWidthSm{max-width:1040px!important;width:1020px!important;}
+  .App{max-width:100vw;overflow-x:hidden;}
+  /*! CSS Used from: Embedded */
+  .css-zow5z4-MuiGrid-root{box-sizing:border-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-flex-wrap:wrap;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;width:100%;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;margin-top:-24px;width:calc(100% + 24px);margin-left:-24px;}
+  /*! CSS Used from: Embedded */
+  .css-zow5z4-MuiGrid-root>.MuiGrid-item{padding-top:24px;}
+  /*! CSS Used from: Embedded */
+  .css-zow5z4-MuiGrid-root>.MuiGrid-item{padding-left:24px;}
+  /*! CSS Used from: Embedded */
+  .css-1em9ut6-MuiGrid-root{box-sizing:border-box;margin:0;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:100%;}
+  /*! CSS Used from: Embedded */
+  .css-j23p4t-MuiGrid-root{box-sizing:border-box;margin:0;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-basis:25%;-ms-flex-preferred-size:25%;flex-basis:25%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:25%;}
+  /*! CSS Used from: Embedded */
+  .css-ti90j5-MuiTypography-root{margin:0;font-size:1.75em;font-family:MontserratLight;font-family:sans-serif;font-weight:300;line-height:1.167;}
+  /*! CSS Used from: Embedded */
+  .css-ayy8wd-MuiGrid-root{box-sizing:border-box;margin:0;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-basis:50%;-ms-flex-preferred-size:50%;flex-basis:50%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:50%;}
+  /*! CSS Used from: Embedded */
+  .css-1k1ugfd-MuiTypography-root-MuiLink-root{margin:0;color:#03919a;-webkit-text-decoration:underline;text-decoration:underline;}
+  /*! CSS Used from: Embedded */
+  .css-1ntlk7q-MuiTypography-root{margin:0;font-family:MontserratLight;font-family:sans-serif;font-weight:400;font-size:1rem;line-height:1.5;}
+  /*! CSS Used from: Embedded */
+  .css-1744jwa-MuiGrid-root{box-sizing:border-box;margin:0;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-basis:33.333333%;-ms-flex-preferred-size:33.333333%;flex-basis:33.333333%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:33.333333%;}
+  
+  /*! CSS Used from: Embedded */
+  .css-mhc70k-MuiGrid-root{box-sizing:border-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-flex-wrap:wrap;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;width:100%;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;margin-top:-16px;width:calc(100% + 16px);margin-left:-16px;}
+  /*! CSS Used from: Embedded */
+  .css-mhc70k-MuiGrid-root>.MuiGrid-item{padding-top:16px;}
+  /*! CSS Used from: Embedded */
+  .css-mhc70k-MuiGrid-root>.MuiGrid-item{padding-left:16px;}
+  /*! CSS Used from: Embedded */
+  .css-11fdqtz-MuiTypography-root{margin:0;font-size:1.25em;font-family:MontserratLight;font-family:sans-serif;font-weight:400;line-height:1.167;}
+  /*! CSS Used from: Embedded */
+  .css-xcqbav-MuiGrid-root{box-sizing:border-box;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:100%;}
+  /*! CSS Used from: Embedded */
+  .css-zw3mfo-MuiModal-root-MuiDialog-root{position:fixed;z-index:1300;right:0;bottom:0;top:0;left:0;}
+  
+  /*! CSS Used from: Embedded */
+  .css-hzaur0-MuiTypography-root-MuiDialogTitle-root{margin:0;font-family:MontserratLight;font-family:sans-serif;font-weight:500;font-size:1.25rem;line-height:1.6;padding:16px 24px;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;}
+  /*! CSS Used from: Embedded */
+  .css-146xe7l-MuiTypography-root{margin:0;font-size:1.75em;font-family:MontserratLight;font-family:sans-serif;font-weight:300;line-height:1.167;margin-bottom:0.35em;}
+  /*! CSS Used from: Embedded */
+  .css-11lq3yg-MuiGrid-root{box-sizing:border-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-flex-wrap:wrap;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;width:100%;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;}
+  /*! CSS Used from: Embedded */
+  .css-1u9kjt6-MuiTypography-root{margin:0;font-family:MontserratLight;font-family:sans-serif;font-weight:500;font-size:1.25rem;line-height:1.6;}
+  /*! CSS Used from: Embedded */
+  .css-19jmylb-MuiTypography-root{margin:0;font-family:MontserratLight;font-family:sans-serif;font-weight:400;font-size:1rem;line-height:1.75;}
+  /*! CSS Used from: Embedded */
+  .css-klo4dh-MuiGrid-root{box-sizing:border-box;margin:0;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-basis:58.333333%;-ms-flex-preferred-size:58.333333%;flex-basis:58.333333%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:58.333333%;}
+  /*! CSS Used from: Embedded */
+  .css-a0vo9r-MuiGrid-root{box-sizing:border-box;margin:0;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-basis:16.666667%;-ms-flex-preferred-size:16.666667%;flex-basis:16.666667%;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;max-width:16.666667%;}
+  /*! CSS Used from: Embedded */
+  .css-1lym95h-MuiGrid-root{box-sizing:border-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-flex-wrap:wrap;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;width:100%;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;}
+  /*! CSS Used from: Embedded */
+  .css-rorn0c-MuiTableContainer-root{width:100%;overflow-x:auto;}
+  /*! CSS Used from: Embedded */
+  .css-1k18c8z-MuiTable-root{display:table;width:100%;border-collapse:collapse;border-spacing:0;min-width:350px;width:380px;}
+  /*! CSS Used from: Embedded */
+  .css-15wwp11-MuiTableHead-root{display:table-header-group;}
+  /*! CSS Used from: Embedded */
+  .css-3u6wjp-MuiTableRow-root{color:inherit;display:table-row;vertical-align:middle;outline:0;}
+  /*! CSS Used from: Embedded */
+  .css-4md3hy-MuiTableCell-root{font-family:MontserratLight;font-family:sans-serif;font-weight:500;font-size:0.875rem;line-height:1.5rem;display:table-cell;vertical-align:inherit;border-bottom:1px solid rgba(224, 224, 224, 1);text-align:left;padding:6px 16px;color:rgba(0, 0, 0, 0.87);}
+  /*! CSS Used from: Embedded */
+  .css-1m1odwp-MuiTableCell-root{font-family:MontserratLight;font-family:sans-serif;font-weight:500;font-size:0.875rem;line-height:1.5rem;display:table-cell;vertical-align:inherit;border-bottom:1px solid rgba(224, 224, 224, 1);text-align:center;padding:6px 16px;color:rgba(0, 0, 0, 0.87);}
+  /*! CSS Used from: Embedded */
+  .css-apqrd9-MuiTableBody-root{display:table-row-group;}
+  /*! CSS Used from: Embedded */
+  .css-1tqv43g-MuiTableCell-root{font-family:MontserratLight;font-family:sans-serif;font-weight:400;font-size:0.875rem;line-height:1.43;display:table-cell;vertical-align:inherit;border-bottom:1px solid rgba(224, 224, 224, 1);text-align:left;padding:6px 16px;color:rgba(0, 0, 0, 0.87);}
+  /*! CSS Used from: Embedded */
+  .css-1av4hw6-MuiTableCell-root{font-family:MontserratLight;font-family:sans-serif;font-weight:400;font-size:0.875rem;line-height:1.43;display:table-cell;vertical-align:inherit;border-bottom:1px solid rgba(224, 224, 224, 1);text-align:center;padding:6px 16px;color:rgba(0, 0, 0, 0.87);}
+  /*! CSS Used fontfaces */
+  
+  /*UPDATE FOR FIXING STYLING IN CALCULATOR REPORT*/
+  .css-1h77wgb{box-sizing:border-box;display:flex;flex-flow:row wrap;margin-top:-24px;width:calc(100% + 24px);margin-left:-24px;}
+  .css-1cwz49y{box-sizing:border-box;margin:0px;flex-direction:row;flex-basis:100%;-webkit-box-flex:0;flex-grow:0;max-width:100%;}
+  .css-aoeo82{background-color:rgb(255, 255, 255);color:rgba(0, 0, 0, 0.87);transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;}
+  .css-jn4ruz{box-sizing:border-box;margin:0px;flex-direction:row;flex-basis:25%;-webkit-box-flex:0;flex-grow:0;max-width:25%;}
+  .css-qqlytg{box-sizing:border-box;margin:0px;flex-direction:row;flex-basis:50%;-webkit-box-flex:0;flex-grow:0;max-width:50%;}
+  .css-1lw95aq{margin:0px;font-family:sans-serif;font-weight:400;font-size:1rem;line-height:1.5;}
+  .css-yp9ue7{box-sizing:border-box;margin:0px;flex-direction:row;flex-basis:33.3333%;-webkit-box-flex:0;flex-grow:0;max-width:33.3333%;}
+  .css-1ontqvh{list-style:none;margin:0px;padding:8px 0px;position:relative;}
+  .css-isbt42{box-sizing:border-box;display:flex;flex-flow:row wrap;margin-top:-16px;width:calc(100% + 16px);margin-left:-16px;}
+  .css-isbt42 > .MuiGrid-item{padding-top:16px;}
+  .css-isbt42 > .MuiGrid-item{padding-left:16px;}
+  .css-1vuu1m2{margin:0px;font-size:1.25em;font-family:sans-serif;font-weight:400;line-height:1.167;}
+  .css-1uqhpru{box-sizing:border-box;flex-direction:row;flex-basis:100%;-webkit-box-flex:0;flex-grow:0;max-width:100%;}
+  .css-1wlh3ij{margin:0px 0px 0.35em;font-size:1.75em;font-family:sans-serif;font-weight:300;line-height:1.167;}
+  .css-1d3bbye{box-sizing:border-box;display:flex;flex-flow:row wrap;width:100%;}
+  .css-sjcin9{margin:0px;font-family:sans-serif;font-weight:500;font-size:1.25rem;line-height:1.6;}
+  .css-3ust2x{margin:0px;font-family:sans-serif;font-weight:400;font-size:1rem;line-height:1.75;}
+  .css-ezggq0{box-sizing:border-box;margin:0px;flex-direction:row;flex-basis:58.3333%;-webkit-box-flex:0;flex-grow:0;max-width:58.3333%;}
+  .css-117ne84{box-sizing:border-box;margin:0px;flex-direction:row;flex-basis:16.6667%;-webkit-box-flex:0;flex-grow:0;max-width:16.6667%;}
+  .css-1cn3yto{box-sizing:border-box;display:flex;flex-flow:row wrap;width:100%;-webkit-box-pack:center;justify-content:center;}
+  .css-kge0eu{width:100%;overflow-x:auto;}
+  .css-qi2ncv{display:table;border-collapse:collapse;border-spacing:0px;min-width:350px;width:380px;}
+  .css-1wbz3t9{display:table-header-group;}
+  .css-1owacfv{color:inherit;display:table-row;vertical-align:middle;outline:0px;}
+  .css-147fpvq{font-family:sans-serif;font-weight:500;font-size:0.875rem;line-height:1.5rem;display:table-cell;vertical-align:inherit;border-bottom:1px solid rgb(224, 224, 224);text-align:left;padding:6px 16px;color:rgba(0, 0, 0, 0.87);}
+  .css-a6n4pu{font-family:sans-serif;font-weight:500;font-size:0.875rem;line-height:1.5rem;display:table-cell;vertical-align:inherit;border-bottom:1px solid rgb(224, 224, 224);text-align:center;padding:6px 16px;color:rgba(0, 0, 0, 0.87);}
+  .css-1xnox0e{display:table-row-group;}
+  .css-ao4huo{font-family:sans-serif;font-weight:400;font-size:0.875rem;line-height:1.43;display:table-cell;vertical-align:inherit;border-bottom:1px solid rgb(224, 224, 224);text-align:left;padding:6px 16px;color:rgba(0, 0, 0, 0.87);}
+  .css-1jkmpa9{font-family:sans-serif;font-weight:400;font-size:0.875rem;line-height:1.43;display:table-cell;vertical-align:inherit;border-bottom:1px solid rgb(224, 224, 224);text-align:center;padding:6px 16px;color:rgba(0, 0, 0, 0.87);}
+  /*! CSS Used fontfaces */
+  @font-face{font-family:MontserratLight;src:url(Montserrat-Light.02afb26f.ttf);}
+  @font-face{font-family:OpenSans;src:url(OpenSans-Regular.1b0809d5.ttf);}
